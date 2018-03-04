@@ -1,0 +1,12 @@
+
+<ul class="heroes">
+  <li *ngFor="let vha of humanos"
+      [class.selected]="vha === varHumano"
+      (click)="onSelect(vha)">
+    <span class="badge"> {{vha.id}}</span>{{vha.nombres}}
+  </li>
+</ul>
+
+<br/>
+
+<app-persona-detalle [vaHumano]="varHumano"></app-persona-detalle>

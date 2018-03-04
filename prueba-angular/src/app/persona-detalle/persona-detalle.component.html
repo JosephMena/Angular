@@ -1,0 +1,11 @@
+<div *ngIf="vaHumano">
+  <p>
+    persona:<br/>
+    nombres: {{vaHumano.nombres}}<br/>
+    DNI: {{vaHumano.id}}
+  </p>
+  <p>
+    <input [(ngModel)]="vaHumano.nombres" placeholder="nombres">
+  </p>
+
+</div>
