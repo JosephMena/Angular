@@ -1,0 +1,44 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/prueba-angular/dist
+/prueba-angular/dist-server
+/prueba-angular/tmp
+/prueba-angular/out-tsc
+
+# dependencies
+/prueba-angular/node_modules
+
+# IDEs and editors
+/prueba-angular/.idea
+/prueba-angular.project
+/prueba-angular.classpath
+/prueba-angular.c9/
+*.launch
+/prueba-angular.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+/prueba-angular/.vscode/*
+/prueba-angular/!.vscode/settings.json
+/prueba-angular/!.vscode/tasks.json
+/prueba-angular/!.vscode/launch.json
+/prueba-angular/!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+/prueba-angular/npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# e2e
+/prueba-angular/e2e/*.js
+/prueba-angular/e2e/*.map
+
+# System Files
+/prueba-angular/.DS_Store
+Thumbs.db
