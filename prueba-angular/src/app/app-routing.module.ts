@@ -5,7 +5,7 @@ import {PersonaComponent} from './persona/persona.component';
 import {DashboardComponent} from './dashboard/dashboard.component';
 
 const routes: Routes = [
-  { path: 'humanos', component: PersonaComponent}
+  { path: 'humanos', component: PersonaComponent},
   { path: 'dashboard', component: DashboardComponent}
 ];
 
